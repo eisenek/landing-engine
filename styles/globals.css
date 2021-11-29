@@ -1,5 +1,9 @@
 html,
 body {
+  --color-main: #3b8ded;
+  --color-secondary: #093769;
+  --color-main-accent: #f2f6fd;
+  --color-tertiary: #3deabf;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

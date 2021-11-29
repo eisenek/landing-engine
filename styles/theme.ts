@@ -68,16 +68,16 @@ let theme = createTheme({
     MuiButton: {
       styleOverrides: {
         contained: {
-          fontSize: 18,
           fontWeight: 900,
           borderRadius: "27.5px",
           objectFit: "contain",
           textTransform: "capitalize",
-          padding: "16px 40px",
           [globalTheme.breakpoints.up("xs")]: {
             fontSize: 10,
-            padding: "8px 18px"
-
+            padding: "8px 18px"},
+          [globalTheme.breakpoints.up("md")]: {
+            fontSize: 18,
+            padding: "16px 40px"
           },
         },
         containedPrimary: {

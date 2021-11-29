@@ -10,8 +10,8 @@ function Episodes(props: Props) {
   return (
     <Box display="flex" flexDirection="column" alignItems="center" py="60px">
       <Typography variant="h2">All episodes</Typography>
-      {/* {episodes list} */}
-      <Button variant="contained" color="primary">Show more episodes</Button>
+      <Box marginTop="5em"><Typography variant="body1">Episodes coming up...</Typography></Box>
+      <Button variant="contained" color="primary" sx={{marginTop: '5rem'}} disabled>Show more episodes</Button>
     </Box>
   )
 }

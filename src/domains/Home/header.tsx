@@ -29,7 +29,7 @@ const Header: React.FC<Props> = (props) => {
           display="flex"
           flexWrap="wrap"
           justifyContent="space-around"
-          alignItems="flex-start"
+          alignItems="center"
           pt="34px"
           pb="40px"
           sx={{maxWidth: {xs: "233px", md: "483px"}}}
@@ -50,7 +50,7 @@ const Header: React.FC<Props> = (props) => {
             onClick={() =>
               window.scrollTo(
                 0,
-                (document?.getElementById("featured")?.offsetTop || 0) + 75
+                document?.getElementById("featured")?.offsetTop || 75
               )
             }
           >

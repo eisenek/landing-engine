@@ -8,7 +8,7 @@ import Footer from "../src/shared/components/footer";
 
 const Homepage = () => {
   return (
-    <Container maxWidth={false} disableGutters>
+    <Container maxWidth={"xl"} disableGutters>
     <Header/>
     <Featured/>
     <About />

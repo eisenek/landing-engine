@@ -7,7 +7,7 @@ import Footer from "../src/shared/components/footer";
 
 const Post = () => {
   return (
-    <Container maxWidth="100%" disableGutters>
+    <Container maxWidth={"xl"} disableGutters>
       <Header />
       <Episode />
       <Content />

@@ -1,3 +1,4 @@
+// @ts-ignore
 import { Divider, Link, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
@@ -92,11 +93,11 @@ function Footer(props: Props) {
       <Box
         display="flex"
         justifyContent="center"
-        alignItem="center"
+        alignItems="center"
         width="100%"
         marginTop="5rem"
       >
-        <Divider thick sx={{ border: "2px solid #3deabf", width: "90%" }} />
+        <Divider component="hr" sx={{ border: "2px solid #3deabf", width: "90%" }} />
       </Box>
       <Box
         display="flex"

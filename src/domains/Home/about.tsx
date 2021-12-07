@@ -1,7 +1,7 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
-import AboutIcon from "./about-icon.svg";
+import AboutIcon from "../../shared/graphics/about-icon.svg";
 
 interface Props {}
 
@@ -14,7 +14,7 @@ function About(props: Props) {
       flexDirection="column"
       alignItems="center"
       px="2.5rem"
-      my="3.75rem"
+      sx={{marginBottom: {xs: "3.75rem", md: "7.5rem"}}}
     >
       <Box
         display="flex"

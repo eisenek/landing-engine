@@ -12,7 +12,7 @@ function Episode(props: Props) {
       display="flex"
       flexDirection="column"
       sx={{
-        marginTop: "5rem",
+        marginBottom: {md: "5rem", xs: "60px"},
         justifyContent: "center",
         alignItems: "center",
         width: "100%",
@@ -23,8 +23,8 @@ function Episode(props: Props) {
           display="block"
           sx={{
             backgroundColor: "primary.light",
-            width: "840px",
-            height: "473px",
+            width: {md: "840px", xs: "233px"},
+            height: {md: "473px", xs: "131px"},
           }}
         >
           &nbsp;

@@ -8,7 +8,7 @@ function Content(props: Props) {
   const {} = props
 
   return (
-    <Box display="flex" justifyContent="center" alignItems="center" sx={{width: "100%", marginTop: "80px"}}><Box display="inline-flex" justifyContent="center" alignItems="center" sx={{width: "840px"}}><Typography variant="body1" color="primary">{`Is smart city another word for surveillance?
+    <Box display="flex" justifyContent="center" alignItems="center" sx={{width: "100%", marginBottom: {md: "80px", xs: "60px"}}}><Box display="inline-flex" justifyContent="center" alignItems="center" sx={{width: {md: "840px", xs: "233px"}}}><Typography variant="body1" color="primary">{`Is smart city another word for surveillance?
 
     What exactly is the purpose of turning a city smart?
     

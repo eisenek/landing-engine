@@ -27,9 +27,9 @@ const Header: React.FC<Props> = (props) => {
   return (
     <AppBar
       position={trigger ? 'sticky' : "relative"}
-      sx={{ backgroundColor: "rgb(59, 141, 237)" }}
+      sx={{ backgroundColor: "rgb(59, 141, 237)", marginBottom: {xs: "60px", md: "5rem"} }}
     >
-        {true ? <AppBarCollapsed  /> : <AppBarExpanded />}
+        {false ? <AppBarCollapsed  /> : <AppBarExpanded />}
     </AppBar>
   );
 };
